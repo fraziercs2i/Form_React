@@ -4,7 +4,7 @@ import UsersList from './components/Users/UsersList';
 
 // we can acess username and age here in App because
 //it is among Userslist and AddUsers
-//and we use the state lifting up to get those attributes here.
+//and we use lifting state up to get those attributes here.
 function App() {
   const [usersList, setUsersList] = useState([]);
   
